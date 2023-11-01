@@ -1,6 +1,6 @@
 # Interview test
 
-This repository contains my solutions to the Full Stack Developer test, including the logic for each question and corresponding unit tests.
+This repository contains my solutions, including the logic for each question and corresponding unit tests.
 
 ## Project Structure
 ```
