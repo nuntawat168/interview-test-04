@@ -23,22 +23,4 @@ function countSmileys(array) {
   return count;
 }
 
-console.log(countSmileys([":)", ";(", ";}", ":-D"]));
-console.log(countSmileys([";D", ":-(", ":-)", ";~)"]));
-console.log(countSmileys([";]", ":[", ";*", ":$", ";-D"]));
-console.log(
-  countSmileys([
-    ":)",
-    ":D",
-    ";)",
-    ";D",
-    ":-)",
-    ":-D",
-    ":~)",
-    ":~D",
-    ";-)",
-    ";-D",
-    ";~)",
-    ";~D",
-  ])
-);
+module.exports = countSmileys;

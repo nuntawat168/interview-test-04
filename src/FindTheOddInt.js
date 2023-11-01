@@ -2,7 +2,7 @@ function isOdd(int) {
   return int % 2 !== 0;
 }
 
-function FindTheOddInt(array) {
+function findTheOddInt(array) {
   const map = {};
   let lastOddInt;
 
@@ -21,7 +21,4 @@ function FindTheOddInt(array) {
   return lastOddInt;
 }
 
-console.log(FindTheOddInt([7]));
-console.log(FindTheOddInt([0]));
-console.log(FindTheOddInt([1, 1, 2]));
-console.log(FindTheOddInt([0, 1, 0, 1, 0]));
+module.exports = findTheOddInt;

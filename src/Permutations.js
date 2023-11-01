@@ -31,14 +31,4 @@ function permutations(strings) {
   return result.filter((string, index) => result.lastIndexOf(string) === index);
 }
 
-console.log(permutations("a"));
-console.log(permutations("ab"));
-console.log(permutations("abc"));
-console.log(permutations("aabb"));
-console.log(permutations("abba"));
-console.log(permutations("bbaa"));
-console.log(permutations("baba"));
-console.log(permutations("baab"));
-console.log(permutations("abab"));
-console.log(permutations("1234"));
-console.log(permutations("12345"));
+module.exports = permutations;
