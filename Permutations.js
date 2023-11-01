@@ -1,11 +1,3 @@
-function factorialize(num) {
-  if (num < 0) return false;
-  else if (num == 0) return 1;
-  else {
-    return num * factorialize(num - 1);
-  }
-}
-
 String.prototype.replaceAt = function (index, replacement) {
   return (
     this.substring(0, index) +
@@ -21,25 +13,11 @@ function swap(strings, index1, index2) {
   return tmpStrings;
 }
 
-// function recusPermutaions(strings, startIndex, endIndex) {
-//   if (startIndex === endIndex) {
-//     console.log(strings);
-//     return strings;
-//   }
-//   for (let i = startIndex; i <= endIndex; i++) {
-//     const swapStrings = swap(strings, startIndex, i);
-//     recusPermutaions(swapStrings, startIndex + 1, endIndex);
-//   }
-// }
-
 function permutations(strings) {
   const result = [];
 
-  //   result.push(recusPermutaions(strings, 0, strings.length - 1));
   function recusPermutaions(strings, startIndex, endIndex) {
     if (startIndex === endIndex) {
-      // console.log(strings);
-      //   return strings;
       result.push(strings);
     }
     for (let i = startIndex; i <= endIndex; i++) {
