@@ -30,3 +30,7 @@ test('Count smiley faces in [":)",":D",";)",";D",":-)",":-D",":~)",":~D",";-)","
     ])
   ).toBe(12);
 });
+
+test("Count smiley faces in []", () => {
+  expect(countSmileys([])).toBe(0);
+});
