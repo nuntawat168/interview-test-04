@@ -18,7 +18,7 @@ This repository contains my solutions, including the logic for each question and
 ```
 - `src` folder contains the source files for each coding challenge.
 - `tests` folder contains the corresponding test files.
-- `README.md` provides an overview of the project, explanations for each coding challenge, and instructions for running the tests.
+- `README.md` provides an overview of the project and instructions for running the tests.
 - `package.json` includes project metadata and dependencies.
 
 ## How to Run Tests
